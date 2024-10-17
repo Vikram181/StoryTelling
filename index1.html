@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Storybook</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="image/logo1.0.png"/>
+        </a>
+        <!--menu--btn----------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Story</a></li>
+            <li><a href="#">Bed Time Story</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Find Your Stories"/>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <h2 class="image-title">The Tortoise and Hare</h2> 
+        <img id="image" src="image1/page1.jpg" alt="Dummy Image" class="page-image">
+        <h5 id="text">Once upon a time, in a sunny meadow, there lived a speedy Hare who bragged about how fast he could run. The other animals admired him but often found his boasting annoying. One day, a wise Tortoise decided he had enough of the Hare's arrogance. "I challenge you to a race," the Tortoise said. The Hare laughed loudly, "A race? You must be joking! You’ll never win!"
+
+        </h5>
+        <div class="button-container">
+            <button id="speakButton">Start Speaking</button>
+            <button id="stopButton">Stop Speaking</button>
+            <button id="resumeButton">Resume Speaking</button>
+            <button id="restartButton">Restart Speaking</button>
+        </div>
+        <div class="navigation">
+            <button id="prevButton">Previous</button>
+            <button id="nextButton">Next</button>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+
+
+
+</body>
+</html>
